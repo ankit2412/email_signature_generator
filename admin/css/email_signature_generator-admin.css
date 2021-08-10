@@ -1,0 +1,6 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wp-core-ui .email-singature-options-wrapper  .notice.is-dismissible{margin: 25px 0;}
+.email-singature-options-wrapper .email-aurthor-image{display: block;}

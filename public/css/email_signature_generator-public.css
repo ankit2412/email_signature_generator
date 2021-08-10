@@ -1,0 +1,224 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.email-signature-wrapper, 
+.final-signature-wrapper {padding: 40px 0; background: #f9f9f9;}
+.email-signature-wrapper ul{margin:0; border: 0;}
+.email-signature-wrapper ul.nav-tabs>li{margin-left: 0;}
+.email-signature-wrapper ul.nav-tabs>li>a{text-decoration: none;}
+.email-signature-wrapper .tab-content,
+.final-signature-wrapper .final-signature-code-wrapper
+{
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+}
+.final-signature-wrapper .final-signature-code-wrapper h1{ 
+    font-size: 36px;
+    margin: 3.5rem 0 2rem;
+}
+.email-signature-wrapper .email-wrapper, 
+.final-signature-wrapper .final-email-wrapper{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 51px;
+    padding: 15px;
+}
+.final-signature-wrapper .final-email-wrapper{margin-top: 0;}
+.email-signature-wrapper .email-wrapper hr,
+.final-signature-wrapper .final-email-wrapper hr
+{margin:0} 
+.email-signature-wrapper .email-wrapper p, 
+.email-signature-wrapper .email-wrapper .email-signature-preview,
+.final-signature-wrapper .final-email-wrapper p, 
+.final-signature-wrapper .final-email-wrapper .final-signature-preview
+{margin: 0; padding: 10px 0;}
+.email-signature-wrapper .email-wrapper .email-signature-preview table,
+.email-signature-wrapper .email-wrapper .email-signature-preview table *,
+.final-signature-wrapper .final-email-wrapper .final-signature-preview table,
+.final-signature-wrapper .final-email-wrapper .final-signature-preview table *
+{border: 0; margin: 0; padding: 0;}
+.email-signature-wrapper .email-wrapper .email-signature-preview .branding
+{display: none;}
+.email-signature-wrapper .email-wrapper .email-signature-preview a{text-decoration: none;}
+#general .field-error{color: red;font-size: 16px;}
+#images .tab-name{ margin-bottom: 15px;}
+#images .upload-label{
+    cursor: pointer; 
+    width: 125px;
+    height: 125px;
+    border-radius: 6px;
+    border: 1px solid #d7d7d7;
+    border-style: dashed;
+    padding: 0;
+    position: relative;
+}
+#images .upload-label i{
+    display: block;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 3px;
+    position: relative;
+}
+#images .upload-label span{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+#images .upload-label input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.email-signature-wrapper .email-signature-action-wrapper,
+.final-signature-wrapper .final-signature-action-wrapper
+{margin: 20px 0;}
+.email-signature-wrapper .email-signature-action-wrapper #generate_email_signature,
+.final-signature-wrapper .final-signature-action-wrapper #copy_signature
+{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.email-signature-wrapper .email-signature-action-wrapper #generate_email_signature:hover,
+.final-signature-wrapper .final-signature-action-wrapper #copy_signature:hover
+{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.final-signature-wrapper, .info-wrapper{display: none;}
+.final-signature-code-wrapper #signature_source_code{cursor: pointer}
+#images .uploaded-avtar-wrapper{
+    display:none;
+    border: 1px solid #ccc;
+    padding: 6px;
+    width: 150px;
+    position: relative;
+}
+#images .uploaded-avtar-wrapper a.remove-img{
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    line-height: 21px;
+    background-color: #c5514d;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+}
+.avtar-options{display: none; margin: 15px 0;}
+.design-options{margin: 15px 0;}
+.avtar-options .avtar-option,
+.design-options .design-option
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.avtar-options .avtar-option label,
+.design-options .design-option label{
+    width: 90px;
+}
+.avtar-options .avtar-option .slider,
+.design-options .design-option .slider
+{
+    -webkit-appearance: none;
+    width: 65%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    display: inline-block;
+    vertical-align: middle;
+}
+.avtar-options .avtar-option .slider:hover,
+.design-options .design-option .slider:hover
+{
+    opacity: 1;
+}
+.avtar-options .avtar-option .slider::-webkit-slider-thumb,
+.design-options .design-option .slider::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.avtar-options .avtar-option .slider::-moz-range-thumb,
+.design-options .design-option .slider::-moz-range-thumb
+{
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.avtar-options .avtar-option .slider-current-value,
+.design-options .design-option .slider-current-value
+{ 
+    display: inline-block; 
+    margin-left: 10px;
+    vertical-align: top;
+}
+#social .caption-wrapper{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+#social .active-social-icons-wrapper{margin: 15px 0;}
+#social ul.active-social-icons { list-style-type: none; margin: 0; padding: 0; }
+#social ul.active-social-icons > li { margin: 15px 3px 3px 3px; padding: 0.4em; position: relative; display: table; width: 100%;}
+#social ul.active-social-icons > li:first-child{margin-top: 0;}
+#social ul.active-social-icons > li span {width: 13px;}
+#social ul.active-social-icons > li .social-icon{
+    display: table-cell;
+    width: 1%;
+    vertical-align: top;
+    padding: 0 7px 0 13px;
+}
+#social ul.active-social-icons > li .social-icon i{font-size: 35px;}
+#social ul.active-social-icons > li#facebook .social-icon i{color: #3b5998}
+#social ul.active-social-icons > li#twitter .social-icon i{color: #1DA1F2}
+#social ul.active-social-icons > li#linkedin .social-icon i{color: #007BB6}
+#social ul.active-social-icons > li > input[type=text]{
+    display: table-cell;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #1b2437;
+    background-color: #fff;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: 300;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#social ul.active-social-icons > li > i.close-icon
+{
+    padding-left: 4px;
+    display: table-cell;
+    color: rgba(189,104,104,.64);
+    font-size: 14px;
+    cursor: pointer;
+    width: 15px;
+}
